@@ -8,10 +8,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE,
-        import.meta.env.VITE_TEMPLATE,
+        'service_x1glab6',
+        'template_gs75i8w',
         form.current,
-        import.meta.env.VITE_ID
+        'bdgPzNFbLLO0pmT-n'
       )
       .then(
         (result) => {
