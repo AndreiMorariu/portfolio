@@ -3,20 +3,20 @@ import emailjs from '@emailjs/browser';
 
 function Contact() {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        'service_x1glab6',
-        'template_gs75i8w',
+        import.meta.env.VITE_SERVICE,
+        import.meta.env.VITE_TEMPLATE,
         form.current,
-        'bdgPzNFbLLO0pmT-n'
+        import.meta.env.VITE_ID
       )
       .then(
         (result) => {
           console.log(result.text);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
