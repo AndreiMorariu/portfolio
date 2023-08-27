@@ -68,7 +68,7 @@ function Contact() {
         <input
           type='submit'
           value='SEND MESSAGE'
-          className='p-2 cursor-pointer border-b-2 border-b-emerald-300 hover:border-b-emerald-500 ml-auto'
+          className='py-2 cursor-pointer border-b-2 border-b-emerald-300 hover:border-b-emerald-500 ml-auto'
         />
       </form>
       {sent && (

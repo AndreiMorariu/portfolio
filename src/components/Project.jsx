@@ -39,11 +39,11 @@ function Project({ project }) {
       : project.description;
 
   return (
-    <div className='text-left md:grid md:grid-cols-2 gap-8 items-center'>
+    <div className='text-left md:grid md:grid-cols-2 md:gap-6 items-center pr-10'>
       <img
         src={`./${project.image}`}
         alt={project.name}
-        className='rounded-lg aspect-video object-cover object-top'
+        className='rounded-lg xl:w-4/5 aspect-video object-cover object-top mx-auto'
       />
       <div className='flex flex-col sm:max-lg:justify-between h-full lg:gap-6'>
         <header>
