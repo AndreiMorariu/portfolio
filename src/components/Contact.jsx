@@ -8,8 +8,8 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'service_x1glab6',
-        'template_gs75i8w',
+        import.meta.env.VITE_SERVICE,
+        import.meta.env.VITE_TEMPLATE,
         form.current,
         'bdgPzNFbLLO0pmT-n'
       )
