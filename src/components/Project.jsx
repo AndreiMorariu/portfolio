@@ -32,7 +32,7 @@ function Project({ project }) {
   }, [project.description]);
 
   const descriptionWords = project.description.split(' ');
-  console.log(descriptionWords);
+
   const truncatedDescription =
     descriptionWords.length > maxWords
       ? descriptionWords.slice(0, maxWords).join(' ')
