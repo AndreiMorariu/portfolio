@@ -5,6 +5,8 @@ const PROJECTS = [
     name: 'Social Media App',
     image: 'mern.png',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus',
     linkCode: 'https://github.com/AndreiMorariu/licenta',
     linkProject: '',
   },
@@ -12,6 +14,8 @@ const PROJECTS = [
     name: 'Weather App',
     image: 'weather.png',
     technologies: ['React'],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus',
     linkCode: 'https://github.com/AndreiMorariu/react-weather-app',
     linkProject: 'https://andreimorariu.github.io/react-weather-app/',
   },
@@ -19,6 +23,8 @@ const PROJECTS = [
     name: 'React Quizz',
     image: 'quizz.png',
     technologies: ['React'],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus',
     linkCode: 'https://github.com/AndreiMorariu/react-quizz',
     linkProject: 'https://andreimorariu.github.io/react-quizz/',
   },

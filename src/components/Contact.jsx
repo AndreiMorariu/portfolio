@@ -34,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <section className='pt-4  text-white relative'>
+    <section className='pt-4 text-white relative'>
       <h2 className='text-2xl mb-2 font-bold'>Contact</h2>
       <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-4'>
         <div className='border-b-2'>
