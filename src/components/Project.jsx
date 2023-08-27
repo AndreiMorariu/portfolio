@@ -39,7 +39,7 @@ function Project({ project }) {
       : project.description;
 
   return (
-    <div className='text-left md:grid md:grid-cols-2 md:gap-6 items-center pr-10'>
+    <div className='text-left md:grid md:grid-cols-2 md:gap-6 items-center md:pr-10'>
       <img
         src={`./${project.image}`}
         alt={project.name}

@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+public/CV.pdf
 dist
 .env
 dist-ssr
@@ -24,5 +25,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Local Netlify folder
-.netlify
