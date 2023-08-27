@@ -1,10 +1,16 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
+import Message from './Message';
+
 function Contact() {
+  const [sent, setSent] = useState(false);
+
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
+    setSent(true);
 
     emailjs
       .sendForm(
@@ -16,6 +22,9 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          setTimeout(() => {
+            setSent(false);
+          }, 3000);
           form.current.reset();
         },
         (error) => {
@@ -25,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <section className='pt-4  text-white'>
+    <section className='pt-4  text-white relative'>
       <h2 className='text-2xl mb-2 font-bold'>Contact</h2>
       <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-4'>
         <div className='border-b-2'>
@@ -62,6 +71,12 @@ function Contact() {
           className='p-2 cursor-pointer border-b-2 border-b-emerald-300 hover:border-b-emerald-500 ml-auto'
         />
       </form>
+      {sent && (
+        <Message
+          message={'Message Sent!'}
+          className='absolute bottom-0 left-0 z-20'
+        />
+      )}
     </section>
   );
 }
