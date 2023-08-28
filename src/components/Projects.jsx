@@ -29,7 +29,7 @@ const PROJECTS = [
     linkProject: 'https://andreimorariu.github.io/react-quizz/',
   },
   {
-    name: 'Ecommerce Website',
+    name: 'E-commerce Website',
     image: 'laravel.png',
     technologies: ['Laravel', 'MySQL'],
     description:
