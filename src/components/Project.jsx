@@ -4,7 +4,7 @@ function Project({ project }) {
       <img
         src={`./${project.image}`}
         alt={project.name}
-        className='rounded-lg lg:w-4/5 lg:h-full aspect-video object-cover object-top mx-auto'
+        className='rounded-lg lg:w-4/5 aspect-video object-cover object-top mx-auto'
       />
       <div className='flex flex-col sm:max-lg:justify-between h-full lg:gap-6'>
         <header>
