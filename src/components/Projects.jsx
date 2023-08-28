@@ -6,7 +6,7 @@ const PROJECTS = [
     image: 'mern.png',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus',
+      'A social media application developed using the MERN stack, featuring fundamental capabilities such as post creation, follower interactions, likes, user profiles, and real-time messaging.',
     linkCode: 'https://github.com/AndreiMorariu/licenta',
     linkProject: '',
   },
@@ -15,7 +15,7 @@ const PROJECTS = [
     image: 'weather.png',
     technologies: ['React'],
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus',
+      "A React application dynamically displaying real-time weather data according to the user's location, supplemented by the ability to search for and retrieve weather information for specific cities.",
     linkCode: 'https://github.com/AndreiMorariu/react-weather-app',
     linkProject: 'https://andreimorariu.github.io/react-weather-app/',
   },
@@ -24,9 +24,27 @@ const PROJECTS = [
     image: 'quizz.png',
     technologies: ['React'],
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis accusantium quo perspiciatis blanditiis necessitatibus',
+      'This project revolves around an interactive web app that presents a collection of 15 questions covering diverse aspects of React. Each question is accompanied by four multiple-choice answer options, inviting users to select the correct answer and accumulate points for each accurate response.',
     linkCode: 'https://github.com/AndreiMorariu/react-quizz',
     linkProject: 'https://andreimorariu.github.io/react-quizz/',
+  },
+  {
+    name: 'Ecommerce Website',
+    image: 'laravel.png',
+    technologies: ['Laravel', 'MySQL'],
+    description:
+      'The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel for authorized personnel to easily manage products in the database, including adding, editing, or removing items.',
+    linkCode: 'https://github.com/AndreiMorariu/laravel',
+    linkProject: '',
+  },
+  {
+    name: 'Activity Tracker: Record and Map Workouts',
+    image: 'map.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    description:
+      'An application where users can add their workout locations, whether they were running or cycling, and add aditional information about their workout.',
+    linkCode: 'https://github.com/AndreiMorariu/Mapty',
+    linkProject: 'https://andreimorariu.github.io/Mapty/',
   },
 ];
 
