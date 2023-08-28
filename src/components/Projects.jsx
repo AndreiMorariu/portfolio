@@ -24,7 +24,7 @@ const PROJECTS = [
     image: 'quizz.png',
     technologies: ['React'],
     description:
-      'This project revolves around an interactive web app that presents a collection of 15 questions covering diverse aspects of React. Each question is accompanied by four multiple-choice answer options, inviting users to select the correct answer and accumulate points for each accurate response.',
+      'This project presents a collection of 15 questions covering diverse aspects of React. Each question is accompanied by four multiple-choice answer options, inviting users to select the correct answer and accumulate points for each accurate response.',
     linkCode: 'https://github.com/AndreiMorariu/react-quizz',
     linkProject: 'https://andreimorariu.github.io/react-quizz/',
   },
@@ -33,7 +33,7 @@ const PROJECTS = [
     image: 'laravel.png',
     technologies: ['Laravel', 'MySQL'],
     description:
-      'The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel for authorized personnel to easily manage products in the database, including adding, editing, or removing items.',
+      'The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel to easily manage products in the database, including adding, editing, or removing items.',
     linkCode: 'https://github.com/AndreiMorariu/laravel',
     linkProject: '',
   },
