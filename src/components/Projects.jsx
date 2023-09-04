@@ -54,7 +54,6 @@ function Projects() {
       <h2 className='text-2xl md:text-left mb-4 font-bold '>
         Some of my projects
       </h2>
-
       <div className='flex flex-col gap-10'>
         {PROJECTS.map((project, i) => (
           <Project project={project} key={i} />
