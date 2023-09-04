@@ -1,4 +1,4 @@
-import { SiTailwindcss, SiMysql } from 'react-icons/si';
+import { SiTailwindcss, SiMysql, SiCsharp, SiDotnet } from 'react-icons/si';
 import { FaNodeJs, FaPhp } from 'react-icons/fa';
 import {
   BiLogoMongodb,
@@ -8,6 +8,7 @@ import {
 } from 'react-icons/bi';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
+import { TbBrandCSharp } from 'react-icons/tb';
 
 import Skill from './Skill';
 import Cv from './Cv';
@@ -25,6 +26,8 @@ const SIDE = [
   <SiMysql className='text-white w-20 h-20' />,
   <FaPhp className='text-white w-20 h-20' />,
   <BiLogoJava className='text-white w-20 h-20' />,
+  <SiCsharp className='text-white w-20 h-20' />,
+  <SiDotnet className='text-white w-20 h-20' />,
 ];
 
 function Skills() {
