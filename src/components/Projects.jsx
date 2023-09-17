@@ -46,6 +46,15 @@ const PROJECTS = [
     linkCode: 'https://github.com/AndreiMorariu/Mapty',
     linkProject: 'https://andreimorariu.github.io/Mapty/',
   },
+  {
+    name: 'Web scraper',
+    image: 'scrape.png',
+    technologies: ['Node.js', 'Express.js', 'Puppeteer', 'React'],
+    description:
+      'A web scraper implemented with puppeteer. The user searches for a specific product, then the app retrieves all the results found on the first page of Emag and Olx based on the input.',
+    linkCode: 'https://github.com/AndreiMorariu/scraper',
+    linkProject: '',
+  },
 ];
 
 function Projects() {
