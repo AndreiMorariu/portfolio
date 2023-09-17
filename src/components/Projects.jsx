@@ -11,6 +11,24 @@ const PROJECTS = [
     linkProject: '',
   },
   {
+    name: 'Web scraper',
+    image: 'scrape.png',
+    technologies: ['Node.js', 'Express.js', 'Puppeteer', 'React'],
+    description:
+      'This project consists of a web scraper implemented using Puppeteer. The user can search for a specific product, and the application retrieves all the results found on the first page of the Emag and Olx websites, based on the search terms provided by the user.',
+    linkCode: 'https://github.com/AndreiMorariu/scraper',
+    linkProject: '',
+  },
+  {
+    name: 'E-commerce Website',
+    image: 'laravel.png',
+    technologies: ['Laravel', 'MySQL'],
+    description:
+      'The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel to easily manage products in the database, including adding, editing, or removing items.',
+    linkCode: 'https://github.com/AndreiMorariu/laravel',
+    linkProject: '',
+  },
+  {
     name: 'Weather App',
     image: 'weather.png',
     technologies: ['React'],
@@ -29,15 +47,6 @@ const PROJECTS = [
     linkProject: 'https://andreimorariu.github.io/react-quizz/',
   },
   {
-    name: 'E-commerce Website',
-    image: 'laravel.png',
-    technologies: ['Laravel', 'MySQL'],
-    description:
-      'The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel to easily manage products in the database, including adding, editing, or removing items.',
-    linkCode: 'https://github.com/AndreiMorariu/laravel',
-    linkProject: '',
-  },
-  {
     name: 'Activity Tracker: Record and Map Workouts',
     image: 'map.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -45,15 +54,6 @@ const PROJECTS = [
       'An application where users can add their workout locations, whether they were running or cycling, and add aditional information about their workout.',
     linkCode: 'https://github.com/AndreiMorariu/Mapty',
     linkProject: 'https://andreimorariu.github.io/Mapty/',
-  },
-  {
-    name: 'Web scraper',
-    image: 'scrape.png',
-    technologies: ['Node.js', 'Express.js', 'Puppeteer', 'React'],
-    description:
-      'A web scraper implemented with puppeteer. The user searches for a specific product, then the app retrieves all the results found on the first page of Emag and Olx based on the input.',
-    linkCode: 'https://github.com/AndreiMorariu/scraper',
-    linkProject: '',
   },
 ];
 
