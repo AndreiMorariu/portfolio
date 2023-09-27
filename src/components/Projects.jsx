@@ -1,3 +1,6 @@
+import { useEffect, useRef } from 'react';
+import { motion, useInView, useAnimation } from 'framer-motion';
+
 import Project from './Project';
 
 const PROJECTS = [
@@ -58,14 +61,34 @@ const PROJECTS = [
 ];
 
 function Projects() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) mainControls.start('visible');
+  }, [isInView]);
+
   return (
-    <section className='pt-4 text-white'>
+    <section className='pt-4 text-white' ref={ref}>
       <h2 className='text-2xl md:text-left mb-4 font-bold '>
         Some of my projects
       </h2>
       <div className='flex flex-col gap-10'>
         {PROJECTS.map((project, i) => (
-          <Project project={project} key={i} />
+          <motion.div
+            variants={{
+              hidden: { opacity: 0, y: 75 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            initial='hidden'
+            animate={mainControls}
+            transition={{ duration: 0.5, delay: 0.25 }}
+            key={i}
+          >
+            <Project project={project} />
+          </motion.div>
         ))}
       </div>
     </section>
