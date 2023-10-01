@@ -58,6 +58,15 @@ const PROJECTS = [
     linkCode: 'https://github.com/AndreiMorariu/Mapty',
     linkProject: 'https://andreimorariu.github.io/Mapty/',
   },
+  {
+    name: 'Book Finder',
+    image: 'book.png',
+    technologies: ['React'],
+    description:
+      'An application that uses Google Books API to search information for a book or author. ',
+    linkCode: 'https://github.com/AndreiMorariu/book-finder',
+    linkProject: '',
+  },
 ];
 
 function Projects() {
