@@ -5,6 +5,15 @@ import Project from './Project';
 
 const PROJECTS = [
   {
+    name: 'AI Cover Letter Generator',
+    image: 'ai.png',
+    technologies: ['React', 'Node.js', 'Express.js'],
+    description:
+        "AI cover letter generator implemented using the OpenAI API. It takes as input the user's information and the company that wants to apply for and generates a cover letter accordingly which is then displayed in a PDF Editor using the PSPDFKit library where the user can modify the document and download it.",
+    linkCode: 'https://github.com/AndreiMorariu/ai-cover-letter-generator',
+    linkProject: '',
+  },
+  {
     name: 'Social Media App',
     image: 'mern.png',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
@@ -72,7 +81,7 @@ function Projects() {
 
   return (
     <section className='pt-4 text-white' ref={ref}>
-      <h2 className='text-2xl md:text-left mb-4 font-bold '>
+      <h2 className='text-2xl md:text-left mb-4 font-bold'>
         Some of my projects
       </h2>
       <div className='flex flex-col gap-10'>
