@@ -9,7 +9,7 @@ const PROJECTS = [
     image: 'ai.png',
     technologies: ['React', 'Node.js', 'Express.js'],
     description:
-        "AI cover letter generator implemented using the OpenAI API. It takes as input the user's information and the company that wants to apply for and generates a cover letter accordingly which is then displayed in a PDF Editor using the PSPDFKit library where the user can modify the document and download it.",
+      "AI cover letter generator implemented using the OpenAI API. It takes as input the user's information and the company that wants to apply for and generates a cover letter accordingly which is then displayed in a PDF Editor using the PSPDFKit library where the user can modify the document and download it.",
     linkCode: 'https://github.com/AndreiMorariu/ai-cover-letter-generator',
     linkProject: '',
   },

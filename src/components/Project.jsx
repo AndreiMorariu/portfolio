@@ -11,7 +11,7 @@ function Project({ project }) {
           <h3 className='font-bold uppercase text-xl lg:text-2xl mt-2 md:mt-0 lg:mt-0 md:mb-2'>
             {project.name}
           </h3>
-          <div className='flex gap-6 md:text-emerald-200 md:text-lg lg:text-xl md:mb-2'>
+          <div className='flex gap-6 text-emerald-200 md:text-lg lg:text-xl md:mb-2'>
             {project.technologies.map((item, i) => (
               <span key={i}>{item}</span>
             ))}

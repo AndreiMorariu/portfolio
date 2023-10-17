@@ -5,6 +5,11 @@ export default {
   },
   theme: {
     extend: {},
+    container: {
+      screens: {
+        '2xl': '1100px',
+      },
+    },
   },
   plugins: [require('tailwind-scrollbar')],
 };
