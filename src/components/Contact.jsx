@@ -71,7 +71,7 @@ function Contact() {
           <textarea
             name='message'
             placeholder='YOUR MESSAGE'
-            className='w-full bg-transparent focus:outline-none py-2'
+            className='w-full bg-transparent focus:outline-none py-2 resize-none'
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
