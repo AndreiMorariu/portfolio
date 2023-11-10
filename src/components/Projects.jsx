@@ -72,7 +72,7 @@ function Projects() {
       <h2 className='text-2xl mb-6 font-bold text-center'>
         Some of my projects
       </h2>
-      <div className='flex flex-col gap-10'>
+      <div className='flex flex-col gap-12'>
         {PROJECTS.map((project, i) => (
           <Project project={project} key={i} />
         ))}
