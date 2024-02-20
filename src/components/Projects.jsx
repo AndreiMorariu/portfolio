@@ -47,7 +47,7 @@ const PROJECTS = [
     linkProject: 'https://andreimorariu.github.io/react-weather-app/',
   },
   {
-    name: 'React Quizz',
+    name: 'React Quiz',
     image: 'quizz.png',
     technologies: ['React'],
     description:
