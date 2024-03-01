@@ -1,11 +1,15 @@
+import { BackgroundGradient } from './background-gradient';
+
 function Project({ project }) {
   return (
     <div className='text-left md:grid md:grid-cols-2 md:gap-8 items-center md:pr-10'>
-      <img
-        src={`./${project.image}`}
-        alt={project.name}
-        className='rounded-lg w-full h-full aspect-video object-cover object-top'
-      />
+      <BackgroundGradient>
+        <img
+          src={`./${project.image}`}
+          alt={project.name}
+          className='rounded-3xl w-full h-full aspect-video object-cover object-top'
+        />
+      </BackgroundGradient>
       <div className='flex flex-col sm:max-lg:justify-between h-full lg:gap-6'>
         <header>
           <h3 className='font-bold uppercase text-xl lg:text-2xl mb-4 mt-2 md:mt-0 md:mb-2 lg:mt-0 '>

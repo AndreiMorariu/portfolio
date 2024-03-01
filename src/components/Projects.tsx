@@ -68,8 +68,8 @@ const PROJECTS = [
 
 function Projects() {
   return (
-    <section className='pt-4 text-white'>
-      <h2 className='text-2xl mb-6 font-bold text-center'>
+    <section className=' text-white'>
+      <h2 className='text-3xl my-12 font-bold text-center text-white'>
         Some of my projects
       </h2>
       <div className='flex flex-col gap-12'>
