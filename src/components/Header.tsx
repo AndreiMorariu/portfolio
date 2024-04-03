@@ -10,14 +10,14 @@ function Header() {
           target='_blank'
           rel='noreferrer'
         >
-          <FaLinkedin className='w-10 h-10 hover:opacity-70' />
+          <FaGithub className='w-10 h-10 hover:opacity-70' />
         </a>
         <a
           href='https://www.linkedin.com/in/andrei-morariu-445550259/'
           target='_blank'
           rel='noreferrer'
         >
-          <FaGithub className='w-10 h-10 hover:opacity-70' />
+          <FaLinkedin className='w-10 h-10 hover:opacity-70' />
         </a>
       </div>
       <img src='avatar.png' alt='' className='h-48 mx-auto mt-5' />
