@@ -38,5 +38,5 @@
     "description": "A React application dynamically displaying real-time weather data according to the user's location, supplemented by the ability to search for and retrieve weather information for specific cities.",
     "linkCode": "https://github.com/AndreiMorariu/react-weather-app",
     "linkProject": "https://andreimorariu.github.io/react-weather-app/"
-  },
+  }
 ]
