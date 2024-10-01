@@ -24,14 +24,6 @@
     "linkProject": ""
   },
   {
-    "name": "Web scraper",
-    "image": "scrape.png",
-    "technologies": ["Node.js", "Express.js", "Puppeteer", "React"],
-    "description": "This project consists of a web scraper implemented using Puppeteer. The user can search for a specific product, and the application retrieves all the results found on the first page of the Emag and Olx websites, based on the search terms provided by the user.",
-    "linkCode": "https://github.com/AndreiMorariu/scraper",
-    "linkProject": ""
-  },
-  {
     "name": "E-commerce Website",
     "image": "laravel.png",
     "technologies": ["Laravel", "MySQL"],
@@ -47,20 +39,4 @@
     "linkCode": "https://github.com/AndreiMorariu/react-weather-app",
     "linkProject": "https://andreimorariu.github.io/react-weather-app/"
   },
-  {
-    "name": "React Quiz",
-    "image": "quizz.png",
-    "technologies": ["React"],
-    "description": "This project presents a collection of 15 questions covering diverse aspects of React. Each question is accompanied by four multiple-choice answer options, inviting users to select the correct answer and accumulate points for each accurate response.",
-    "linkCode": "https://github.com/AndreiMorariu/react-quizz",
-    "linkProject": "https://andreimorariu.github.io/react-quizz/"
-  },
-  {
-    "name": "Activity Tracker: Record and Map Workouts",
-    "image": "map.png",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "description": "An application where users can add their workout locations, whether they were running or cycling, and add aditional information about their workout.",
-    "linkCode": "https://github.com/AndreiMorariu/Mapty",
-    "linkProject": "https://andreimorariu.github.io/Mapty/"
-  }
 ]
