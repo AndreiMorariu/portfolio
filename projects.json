@@ -1,42 +1,42 @@
 [
-  {
-    "name": "Job Application Tracker",
-    "image": "tracker.png",
-    "technologies": ["React", "C#", "ASP.NET Core", "SQL Server"],
-    "description": "Job Application Tracker with comprehensive features for managing and analyzing job applications. It includes two sections: Applications (create, edit, delete, filter) and Statistics (success rate, total applications...). Features Google login for seamless access.",
-    "linkCode": "https://github.com/AndreiMorariu/Job-Tracker-Fullstack",
-    "linkProject": "https://job-application-tracker-frontend.vercel.app"
-  },
-  {
-    "name": "AI Cover Letter Generator",
-    "image": "ai.png",
-    "technologies": ["React", "Node.js", "Express.js"],
-    "description": "AI cover letter generator implemented using the OpenAI API. It takes as input the user's information and the company that wants to apply for and generates a cover letter accordingly which is then displayed in a PDF Editor using the PSPDFKit library where the user can modify the document and download it.",
-    "linkCode": "https://github.com/AndreiMorariu/ai-cover-letter-generator",
-    "linkProject": ""
-  },
-  {
-    "name": "Social Media App",
-    "image": "mern.png",
-    "technologies": ["React", "Node.js", "Express.js", "MongoDB"],
-    "description": "A social media application developed using the MERN stack, featuring fundamental capabilities such as post creation, follower interactions, likes, user profiles, and real-time messaging.",
-    "linkCode": "https://github.com/AndreiMorariu/licenta",
-    "linkProject": ""
-  },
-  {
-    "name": "E-commerce Website",
-    "image": "laravel.png",
-    "technologies": ["Laravel", "MySQL"],
-    "description": "The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel to easily manage products in the database, including adding, editing, or removing items.",
-    "linkCode": "https://github.com/AndreiMorariu/laravel",
-    "linkProject": ""
-  },
-  {
-    "name": "Weather App",
-    "image": "weather.png",
-    "technologies": ["React"],
-    "description": "A React application dynamically displaying real-time weather data according to the user's location, supplemented by the ability to search for and retrieve weather information for specific cities.",
-    "linkCode": "https://github.com/AndreiMorariu/react-weather-app",
-    "linkProject": "https://andreimorariu.github.io/react-weather-app/"
-  }
+	{
+		"name": "Job Application Tracker",
+		"image": "tracker.png",
+		"technologies": ["React", "C#", "ASP.NET Core", "SQL Server"],
+		"description": "Job Application Tracker with comprehensive features for managing and analyzing job applications. It includes two sections, a dashboard where the user can view, create, update, delete and search applications and a statistics page, where the user is able to view insights and analyze their job search progress.",
+		"linkCode": "https://github.com/AndreiMorariu/Job-Tracker-Fullstack",
+		"linkProject": "https://job-application-tracker-frontend.vercel.app"
+	},
+	{
+		"name": "AI Cover Letter Generator",
+		"image": "ai.png",
+		"technologies": ["React", "Node.js", "Express.js"],
+		"description": "AI cover letter generator implemented using the OpenAI API. It takes as input the user's information and the company that wants to apply for and generates a cover letter accordingly which is then displayed in a PDF Editor using the PSPDFKit library where the user can modify the document and download it.",
+		"linkCode": "https://github.com/AndreiMorariu/ai-cover-letter-generator",
+		"linkProject": ""
+	},
+	{
+		"name": "Social Media App",
+		"image": "mern.png",
+		"technologies": ["React", "Node.js", "Express.js", "MongoDB"],
+		"description": "A social media application developed using the MERN stack, featuring fundamental capabilities such as post creation, follower interactions, likes, user profiles, and real-time messaging.",
+		"linkCode": "https://github.com/AndreiMorariu/licenta",
+		"linkProject": ""
+	},
+	{
+		"name": "E-commerce Website",
+		"image": "laravel.png",
+		"technologies": ["Laravel", "MySQL"],
+		"description": "The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel to easily manage products in the database, including adding, editing, or removing items.",
+		"linkCode": "https://github.com/AndreiMorariu/laravel",
+		"linkProject": ""
+	},
+	{
+		"name": "Weather App",
+		"image": "weather.png",
+		"technologies": ["React"],
+		"description": "A React application dynamically displaying real-time weather data according to the user's location, supplemented by the ability to search for and retrieve weather information for specific cities.",
+		"linkCode": "https://github.com/AndreiMorariu/react-weather-app",
+		"linkProject": "https://andreimorariu.github.io/react-weather-app/"
+	}
 ]
