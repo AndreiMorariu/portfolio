@@ -8,6 +8,14 @@
 		"linkProject": "https://job-application-tracker-frontend.vercel.app"
 	},
 	{
+		"name": "Fitness Tracker",
+		"image": "fitness-tracker.png",
+		"technologies": ["React", "AI"],
+		"description": "FitTrack is a fitness tracking web application built with React that empowers users to manage their workouts, set fitness goals, and gain personalized insights. The application is designed to motivate users by providing a comprehensive overview of their fitness journey.",
+		"linkCode": "https://github.com/AndreiMorariu/FitTrack",
+		"linkProject": "https://fit-track-zthw.vercel.app"
+	},
+	{
 		"name": "AI Cover Letter Generator",
 		"image": "ai.png",
 		"technologies": ["React", "Node.js", "Express.js"],
