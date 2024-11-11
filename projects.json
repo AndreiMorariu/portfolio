@@ -5,7 +5,7 @@
 		"technologies": ["React", "C#", "ASP.NET Core", "SQL Server"],
 		"description": "Job Application Tracker with comprehensive features for managing and analyzing job applications. It includes two sections, a dashboard where the user can view, create, update, delete and search applications and a statistics page, where the user is able to view insights and analyze their job search progress.",
 		"linkCode": "https://github.com/AndreiMorariu/Job-Tracker-Fullstack",
-		"linkProject": "https://job-application-tracker-frontend.vercel.app"
+		"linkProject": "https://application-manager-seven.vercel.app"
 	},
 	{
 		"name": "Fitness Tracker",
