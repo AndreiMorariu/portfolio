@@ -1,50 +1,78 @@
 [
 	{
-		"name": "Job Application Tracker",
-		"image": "tracker.png",
-		"technologies": ["React", "C#", "ASP.NET Core", "SQL Server"],
-		"description": "Job Application Tracker with comprehensive features for managing and analyzing job applications. It includes two sections, a dashboard where the user can view, create, update, delete and search applications and a statistics page, where the user is able to view insights and analyze their job search progress.",
-		"linkCode": "https://github.com/AndreiMorariu/Job-Tracker-Fullstack",
-		"linkProject": "https://application-manager-seven.vercel.app"
+		"name": "Romanian IT Companies Dashboard",
+		"image": "companies.png",
+		"technologies": [
+			"Node.js",
+			"TypeScript",
+			"SQLite",
+			"React",
+			"AWS",
+			"Nginx"
+		],
+		"description": "A dashboard to search for IT companies in Romania and view financial data.",
+		"longDescription": "A full-stack application built using Node.js and React that combines public data from two datasets on data.gov.ro, one containing financial indicators and the other with company details such as location, which are joined by the unique company identifier (CUI). The application presents this data in a comprehensive dashboard. Users can filter the data by various indicators and view statistics about these companies.",
+		"purpose": "To provide access to public financial information about Romanian IT companies in a free, user-friendly format.",
+		"features": [
+			"A table to view and sort company data",
+			"Filter options to refine company search based on multiple criteria such as number of employees, CAEN code, CUI, and revenue",
+			"Statistics page with insights like total employees, average revenue, etc.",
+			"Responsive design and dark mode"
+		],
+		"technologiesDetailed": [
+			"Backend: Node.js with Express and SQLite for the database",
+			"Frontend: React for the UI, with Redux for state management",
+			"Hosting: Deployed on an AWS EC2 instance with Nginx as a reverse proxy"
+		],
+		"linkCode": "https://github.com/AndreiMorariu/companies_finder",
+		"linkProject": "http://35.158.2.69/"
 	},
 	{
 		"name": "Fitness Tracker",
 		"image": "fitness-tracker.png",
-		"technologies": ["React", "AI"],
-		"description": "FitTrack is a fitness tracking web application built with React that empowers users to manage their workouts, set fitness goals, and gain personalized insights. The application is designed to motivate users by providing a comprehensive overview of their fitness journey.",
+		"technologies": ["React", "Tailwind", "shadcn/ui", "AI Integration"],
+		"description": "An application to track workouts, set goals, and get AI-generated workout recommendations.",
+		"longDescription": "A single-page React application that allows users to log workouts, set fitness goals, and get AI-generated workout routines based on user preferences. The app displays detailed statistics about users' fitness progress and provides insights to help achieve goals faster.",
+		"purpose": "To help users track their fitness progress, set personalized goals, and improve their health with AI-powered workout suggestions.",
+		"features": [
+			"Dashboard with workout statistics, including total workout time, favorite exercises, and active days",
+			"Create custom workouts (cardio, strength training, flexibility)",
+			"AI-generated workouts based on user preferences",
+			"Goal tracking with progress monitoring",
+			"Responsive design and dark mode"
+		],
+		"technologiesDetailed": [
+			"Frontend: React for the UI and state management using hooks",
+			"AI integration: Uses a simple AI algorithm to generate workout suggestions",
+			"Charts: Utilizes charting libraries to display workout statistics"
+		],
 		"linkCode": "https://github.com/AndreiMorariu/FitTrack",
 		"linkProject": "https://fit-track-zthw.vercel.app"
 	},
 	{
-		"name": "AI Cover Letter Generator",
-		"image": "ai.png",
-		"technologies": ["React", "Node.js", "Express.js"],
-		"description": "AI cover letter generator implemented using the OpenAI API. It takes as input the user's information and the company that wants to apply for and generates a cover letter accordingly which is then displayed in a PDF Editor using the PSPDFKit library where the user can modify the document and download it.",
-		"linkCode": "https://github.com/AndreiMorariu/ai-cover-letter-generator",
-		"linkProject": ""
-	},
-	{
-		"name": "Social Media App",
-		"image": "mern.png",
-		"technologies": ["React", "Node.js", "Express.js", "MongoDB"],
-		"description": "A social media application developed using the MERN stack, featuring fundamental capabilities such as post creation, follower interactions, likes, user profiles, and real-time messaging.",
-		"linkCode": "https://github.com/AndreiMorariu/licenta",
-		"linkProject": ""
-	},
-	{
-		"name": "E-commerce Website",
-		"image": "laravel.png",
-		"technologies": ["Laravel", "MySQL"],
-		"description": "The project involves developing an e-commerce platform using the Laravel framework for the backend and MySQL database for data management. It also features an admin panel to easily manage products in the database, including adding, editing, or removing items.",
-		"linkCode": "https://github.com/AndreiMorariu/laravel",
-		"linkProject": ""
-	},
-	{
-		"name": "Weather App",
-		"image": "weather.png",
-		"technologies": ["React"],
-		"description": "A React application dynamically displaying real-time weather data according to the user's location, supplemented by the ability to search for and retrieve weather information for specific cities.",
-		"linkCode": "https://github.com/AndreiMorariu/react-weather-app",
-		"linkProject": "https://andreimorariu.github.io/react-weather-app/"
+		"name": "Job Application Tracker",
+		"image": "application-tracker.png",
+		"technologies": [
+			"C#",
+			"ASP.NET Core",
+			"SQL Server",
+			"React",
+			"Material UI"
+		],
+		"description": "A tool to keep track of job applications.",
+		"longDescription": "A full-stack application built using C# and React to help users track and manage job applications. It includes features like a dashboard, statistics, and charts to visualize application progress.",
+		"purpose": "To have a personal centralized place to manage job applications across various platforms.",
+		"features": [
+			"Dashboard with table to add/edit/remove applications",
+			"Statistics page with visualizations for average applications per month and more",
+			"Responsive design and dark mode"
+		],
+		"technologiesDetailed": [
+			"Backend: ASP.NET Core for API development",
+			"Database: SQL Server for persistent storage",
+			"Frontend: React with hooks and context for state management"
+		],
+		"linkCode": "https://github.com/AndreiMorariu/Job-Tracker-Fullstack",
+		"linkProject": "https://application-manager-seven.vercel.app"
 	}
 ]
